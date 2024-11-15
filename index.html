@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Piti Ambrus</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="tablastyle.css">
+    </head>
+    <body>
+        <main>
+            <header><h1>Táblázatokról minden</h1></header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Kezdőlap</a></li>
+                    <li><a href="kutya.html">Kutyák</a></li>
+                    <li><a href="sakk.html">Sakk</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h2>Minta táblázat</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>oszlop 1</th>
+                                <th>oszlop 2</th>
+                                <th>oszlop 3</th>
+                                <th>oszlop 4</th>
+                                <th>oszlop 5</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1. sor 1. cella</td>
+                                <td>1. sor 2. cella</td>
+                                <td colspan="2" class="oszevont">1. sor 3. cella, 1. sor 4. cella</td>
+                                <td>1. sor 5. cella</td>
+                            </tr>
+                            <tr>
+                                <td>2. sor 1. cella</td>
+                                <td>2. sor 2. cella</td>
+                                <td>2. sor 3. cella</td>
+                                <td>2. sor 4. cella</td>
+                                <td>2. sor 5. cella</td>
+                            </tr>
+                            <tr>
+                                <td>3. sor 1. cella</td>
+                                <td>3. sor 2. cella</td>
+                                <td>3. sor 3. cella</td>
+                                <td rowspan="2" class="oszevont" >3. sor 4. cella<br>4. sor 3. cella</td>
+                                <td>3. sor 5. cella</td>
+                            </tr>
+                            <tr>
+                                <td>4. sor 1. cella</td>
+                                <td>4. sor 2. cella</td>
+                                <td>4. sor 3. cella</td>
+
+                                <td>4. sor 5. cella</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </article>
+            <aside><h4>Napi jó kívánság</h4></aside>
+            <footer><p>Ambrus</p></footer>
+        </main>
+    </body>
+</html>

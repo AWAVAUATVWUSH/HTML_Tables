@@ -1,0 +1,40 @@
+
+
+table{
+    border-style: dashed;
+    border-color: red;
+    border-width: 2px;
+    margin: auto;
+    border-collapse: collapse;
+    min-width: 500px;
+}
+
+table tbody tr td{
+    height: 60px;
+    width: 60px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    text-align: center;
+}
+
+table tbody tr:nth-child(odd) td:nth-child(odd){
+    background-color: lightgray;
+}
+
+table tbody tr:nth-child(even) td:nth-child(even){
+    background-color: lightgray;
+}
+
+table tbody tr th{
+    color: white;
+    background-color: rgb(104, 103, 103);
+    width: 20px;
+}
+
+table thead tr{
+    color: white;
+    background-color: rgb(104, 103, 103);;
+    height: 20px;
+}
+
